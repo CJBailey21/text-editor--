@@ -19,7 +19,6 @@ module.exports = () => {
         template: './index.html',
         title: 'Webpack Plugin',
       }),
-      new GenerateSW(),
       new WebpackPwaManifest({
         name: 'test 26',
         start_url: '/',
